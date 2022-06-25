@@ -15,3 +15,4 @@ class Movie(models.Model):
         """
             Returning the name of the model.
         """
+        #Returning the name of the model.
