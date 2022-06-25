@@ -9,7 +9,7 @@ from django.http import JsonResponse
 def movie_list(request):
     #Creating a query set of all objects.
     movies = Movie.objects.all()
-    #Printing the movies.
+    #Creating a list of the values in movies.
     list(movies.values())
     #Returning the json response.
     # return JsonResponse()
