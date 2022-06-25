@@ -10,8 +10,8 @@ def movie_list(request):
     #Creating a query set of all objects.
     movies = Movie.objects.all()
     #Creating a dictionary.
-    data = {
-        'movies': list(movies.values)
-    }
+    # data = {
+    #     'movies': list(movies.values)
+    # }
     #Returning the json response.
     return JsonResponse()
