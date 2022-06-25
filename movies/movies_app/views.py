@@ -5,5 +5,5 @@ from movies_app.models import Movie
 # Create your views here.
 #Creating a function to handle requests.
 def movie_list(request):
-    #Creating a query set.
+    #Creating a query set of all objects.
     movies = Movie.objects.all()
