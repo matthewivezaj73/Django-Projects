@@ -9,3 +9,4 @@ class Movie(models.Model):
     #Creating another charfield and assigned it to the variable description.
     description = models.CharField(max_length=200)
     #Creating a Booleanfield and assigned it to the variable active.
+    active = models.BooleanField(default=True)
