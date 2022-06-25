@@ -8,4 +8,4 @@ def movie_list(request):
     #Creating a query set of all objects.
     movies = Movie.objects.all()
     #Printing the movies.
-    print(movies)
+    print(movies) 
