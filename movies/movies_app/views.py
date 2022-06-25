@@ -14,4 +14,4 @@ def movie_list(request):
         'movies': list(movies.values)
     }
     #Returning the json response.
-    # return JsonResponse()
+    return JsonResponse()
