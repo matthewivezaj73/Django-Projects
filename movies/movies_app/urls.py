@@ -1,2 +1,2 @@
-#Importing libraries.
+#Importing models.
 from django.db import models
