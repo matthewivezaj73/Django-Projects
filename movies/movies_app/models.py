@@ -12,4 +12,6 @@ class Movie(models.Model):
     active = models.BooleanField(default=True)
     
     def __str__(self):
-        
+        """
+            Returning the name of the model.
+        """
