@@ -12,3 +12,4 @@ def movie_list(request):
     #Printing the movies.
     print(movies.values()) 
     #Returning the json response.
+    return JsonResponse()
