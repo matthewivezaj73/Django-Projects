@@ -7,3 +7,4 @@ from movies_app.models import Movie
 def movie_list(request):
     #Creating a query set of all objects.
     movies = Movie.objects.all()
+    #Printing the movies.
