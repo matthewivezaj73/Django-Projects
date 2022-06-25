@@ -11,3 +11,4 @@ def movie_list(request):
     movies = Movie.objects.all()
     #Printing the movies.
     print(movies.values()) 
+    #Returning the json response.
