@@ -1,6 +1,5 @@
 from django.urls import path
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('movie/', include(movie_app.urls)),
 ]
