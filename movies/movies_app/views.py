@@ -13,7 +13,5 @@ def movie_list(request):
     data = {
         'movies': list(movies.values)
     }
-    #Creating a list of the values in movies.
-    list(movies.values())
     #Returning the json response.
     # return JsonResponse()
