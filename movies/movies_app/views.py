@@ -6,3 +6,4 @@ from movies_app.models import Movie
 #Creating a function to handle requests.
 def movie_list(request):
     #Creating a query set.
+    movies = Movie.objects.all()
