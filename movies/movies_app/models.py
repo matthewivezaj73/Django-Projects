@@ -10,3 +10,6 @@ class Movie(models.Model):
     description = models.CharField(max_length=200)
     #Creating a Booleanfield and assigned it to the variable active.
     active = models.BooleanField(default=True)
+    
+    def __str__(self):
+        
