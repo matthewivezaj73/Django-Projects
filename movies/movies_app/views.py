@@ -3,6 +3,7 @@ from django.shortcuts import render
 #Importing the application.
 from movies_app.models import Movie
 #Importing json response.
+from django.http import JsonResponse
 # Create your views here.
 #Creating a function to handle requests.
 def movie_list(request):
