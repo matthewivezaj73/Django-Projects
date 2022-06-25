@@ -11,7 +11,7 @@ def movie_list(request):
     movies = Movie.objects.all()
     #Creating a dictionary.
     data = {
-        
+        'movies': list(movies.values)
     }
     #Creating a list of the values in movies.
     list(movies.values())
